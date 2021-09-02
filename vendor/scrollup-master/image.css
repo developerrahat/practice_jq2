@@ -1,0 +1,23 @@
+/* Image style */
+#scrollUp {
+    background: url("../scrollup-master/top2.png") no-repeat center ;
+    background-size: cover;
+    bottom: 20px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    animation:animation 2s linear infinite;
+}
+
+@keyframes animation{
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
